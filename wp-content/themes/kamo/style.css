@@ -1,0 +1,738 @@
+/*
+Theme Name:kamo
+Description:テーマの説明
+Theme URI: テーマの URL
+Author: 作った人の名前
+Author URI: 作った人の URL
+Version: バージョン
+License: ライセンス
+License URI: ライセンスの URL
+*/
+
+
+*{ margin: 0;
+  padding: 0;
+}
+
+
+
+html {
+  background: #fff;
+}
+
+body {
+    width: 100%;
+}
+
+
+nav{
+    background-color: #ff22b5;
+    z-index: 1;
+    padding: 1%;
+    width: 100%;
+    position: fixed;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+}
+
+nav a {
+    text-shadow: 1px 2px 3px #545454; 
+    font-family: 'Century Gothic';
+    padding-right:50px;
+    font-size: 100%;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight:bold;
+}
+
+a:hover{
+    color: #ff2ecd ;
+}
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+/*Pagenation*/
+.pagenation {
+    margin: 1em 0;
+}
+.pagenation:after, .pagenation ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.pagenation ul {
+    margin: 0;
+}
+.pagenation li {
+    float: left;
+    list-style: none outside none;
+    margin-left: 3px;
+}
+.pagenation li:first-child {
+    margin-left: 0;
+}
+.pagenation li.active {
+    background-color: #999999;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: not-allowed;
+    padding: 10px 20px;
+}
+.pagenation li a {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.pagenation li a:hover {
+    background-color: #444444;
+    color: #FFFFFF;
+    opacity: 0.8;
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+/*Pagenation*/
+
+
+.carousel {
+    width: 100%;
+  background: #EEE;
+    height: 600px;
+    padding-top: 20px;
+}
+
+.carousel-cell1 {
+    text-align: center;
+  width: 100%;
+  height: 600px;
+  counter-increment: ;
+    background-image: url(header_new2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-cell2 {
+    text-align: center;
+  width: 100%;
+  height: 725px;
+  counter-increment: ;
+    background-image: url(secound_wan.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* cell number */
+
+
+
+.kamonegi-setumei{
+    margin-top: -10px;
+    line-height: 40px;
+    background-color: #ff66e2;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.head{
+    width: 100%;
+    margin-top: -40px;
+}
+
+
+
+.setsumei{
+    margin-top: -20px;
+    text-align: center;
+    width: 70%;
+}
+
+.link{
+    text-shadow: 1px 1px 2px #000;
+}
+.link:hover{
+    color: #0ffff7;
+}
+
+.banner_link{
+    transition: .5s;
+}
+
+.banner_link:hover{
+    opacity: .5;
+}
+
+.topiclogo{
+    padding-top: 2%;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.kamonegi_logo{
+    width: 35%;
+    paddinlg-top: 5%;
+}
+
+.pro_back{
+  background-color: #b06cff;
+}
+
+
+
+
+.news{
+    width:100%;
+    background-color: #b06cff;
+}
+
+.news2{
+    width:100%;
+    background-color: #b06cff;
+}
+
+.header_new {
+    width:100%;
+    margin-bottom:-10px;
+}
+
+.consept{
+    width:100%;
+    height: 200px;
+    background-color: #b06cff;
+}
+
+.consept h1{
+    text-align:center;
+    padding-top:100px;
+}
+
+.logo_yoko{
+  width:100%; 
+}
+
+
+.schedule{
+    width: 100%;
+    height: 90%;
+}
+
+.s_wrap{
+    height: 1100px;
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.wrap{
+    position: relative;
+    padding: 0px;
+/*
+    border: 2px #000000 solid;
+
+*/
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.news_img{
+    width: 25%;
+    padding-bottom: 3%;
+}
+
+.topic_p{
+    height: 900px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    background-image:url(images/profile_back.png);
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 20px rgb(253, 247, 49);
+
+}
+
+#sample img {
+  transition:   all 0.2s ease;
+}
+
+#sample img:hover {
+  -webkit-transform:  scale(1.5);
+  transform:    scale(1.5);
+}
+
+#id1{
+position: absolute;
+top:37%;
+left:72%;
+width:25%;
+box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.8);
+border-radius: 50%;
+}
+
+#id2{
+position: absolute;
+top:10%;
+left:37%;
+width:25%;
+box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.8);
+border-radius: 50%;
+}
+
+#id5{
+position: absolute;
+top:36%;
+left:2%;
+width:25%;
+box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.8);
+border-radius: 50%;
+}
+
+#id6{
+position: absolute;
+top:75%;
+left:14%;
+width:25%;
+box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.8);
+border-radius: 50%;
+}
+
+#id7{
+position: absolute;
+top:75%;
+left:60%;
+width:25%;
+box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.8);
+border-radius: 50%;
+}
+
+#logo{
+position: absolute;
+top:48%;
+left:33%;
+width:35%;
+}
+
+.s_img{
+  width:30%;
+}
+
+.news_img2{
+    width: 100%;
+}
+
+.news_image_box{
+    padding-top: 8%;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.news_image_box_top{
+    padding-top: 15%;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.topic{
+    font-family: sans-serif;
+    color: #fff;
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+}
+
+.topic2{
+    padding: 5%;
+    font-family: sans-serif;
+    color: #000;
+    line-height: 250%;
+    height: 2500px;
+    font-size: 100%;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.whitebox{
+    padding: 1%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    padding: 4%;
+}
+
+.whitebox_s{
+    padding: 1%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    padding: 4%;
+}
+.wrapping{
+  height:5%;
+}
+
+.day{
+    width: 100%;
+    float: left;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #3d3d3d;
+
+}
+
+.disc{
+    float: left;
+    width: 85%;
+    padding-bottom: 3%;
+}
+
+.button_box{
+    width: 100%;
+    text-align: center;
+}
+.button {
+  margin-top:5%;
+    box-shadow: 2px 2px 5px #4c4c4c;
+	display: inline-block;
+	padding: .65em 4em;
+	background: -webkit-linear-gradient(#ff33e2 , #dc33ff);
+	background: linear-gradient(#ff33e2 , #dc33ff);
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.button:hover {
+    color: #fff;
+	-webkit-animation: bounce 2s ease-in-out;
+	animation: bounce 3s ease-in-out;
+}
+@-webkit-keyframes bounce {
+	5%  { -webkit-transform: scale(1.1, .8); }
+	10% { -webkit-transform: scale(.8, 1.1) translateY(-5px); }
+	15% { -webkit-transform: scale(1, 1); }
+}
+@keyframes bounce {
+	5%  { transform: scale(1.1, .8); }
+	10% { transform: scale(.8, 1.1) translateY(-5px); }
+	15% { transform: scale(1, 1); }
+}
+
+.banner_box{
+    width: 100%;
+    padding-top: 5%;
+      padding-bottom: 5%;
+    text-align: center;
+}
+
+.banner{
+    width: 20%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+
+
+.movie{
+    height: 700px;
+    width: 100%;
+    padding: 2%;
+    padding-top: 7%;
+    text-align: center;
+}
+.movie_img{
+    width: 25%;
+    padding-bottom: 3%;
+}
+
+.movie_size{
+    width: 30%;
+    height: 40%;
+}
+.movie_image_box{
+    width: 100%;
+    text-align: center;
+}
+
+.youtube_button{
+    padding-top: 5%;
+}
+
+.contact_box{
+    width: 100%;
+    height: 400px;
+    background-color: #8537f4;
+    text-align: center;
+}
+
+.twitter_icon{
+    width: 7%;
+    transition: .5s;
+}
+
+.twitter_icon:hover{
+    opacity: .5;
+}
+.contact_img{
+    width: 40%;
+    padding-top: 5%;
+}
+.kamonegi_logo_last{
+    width: 15%;
+    padding-top: 1%;
+}
+.last{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #ff4aea;
+}
+
+
+.rights{
+    color: #fff;
+    font-size: 7%;
+}
+.slicknav_menu {
+	display:none;
+}
+
+
+@media screen and ( max-width:479px ){
+
+
+}
+
+/*pc*/
+@media screen and (min-width:670px){
+.nav-unshown {
+  display:none;
+}
+#nav-content_on {
+  display:none;
+}
+.logo_sp {
+  display:none;
+}
+}
+
+
+/*スマホ*/
+@media screen and (max-width:670px){
+.header_new{
+  width:100%;
+  margin-top:17%;
+
+}
+nav{
+    z-index: 1;
+    padding: 1%;
+    width: 100%;
+}
+header {
+  padding:10px;
+  background: skyblue;
+}
+
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 25px;/*長さ*/
+  border-radius: 3px;
+  background: #555;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -8px;
+}
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*header内のロゴ*/
+.logo_sp {
+  max-width:100%;
+  margin-top:-25px;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 70%;/*最大幅（調整してください）*/
+  height: 100%;
+  background-size: cover;
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+
+#nav-content_on {
+  width:100%;
+  height:12%;
+  background-color: #ff22b5;
+  text-align:center;
+}
+#nav-content_on h1{
+  color:white;
+  padding-top:13px;
+}
+/*プルダウンを押した時の内容*/
+nav li{
+    float: none;
+    list-style-type: none;
+    padding-top:30px;
+    margin-left:15px;
+}
+
+nav a {
+    text-shadow: 1px 2px 3px #545454; 
+    font-family: 'Century Gothic';
+    padding-right:50px;
+    font-size: 140%;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+
+/*フッターの調節*/
+.contact_box{
+  height:unset;
+}
+.last{
+  height:unset;
+}
+.movie{
+  height:unset;
+}
+
+/*タイトルロゴの調整*/
+.news_image_box_top{
+    padding-top: 15%;
+    width: 100%;
+    text-align: center;
+    height:unset;
+}
+
+.news_image_box{
+    padding-top: 20%;
+    width: 100%;
+    text-align: center;
+    height:unset;
+}
+/*記事文字サイズの調整*/
+.day{
+    font-size: x-small;
+}
+
+/*カレンダーの調整*/
+.s_wrap{
+    height: 500px;
+}
+.whitebox_s{
+  width:unset;
+  background-color:unset;
+}
+.button{
+  margin-top:unset;
+}
+
+/*profileの背景の調整*/
+.topic_p{
+    height: 300px;
+    width: 90%;
+    margin-bottom: 10%;
+    background-image:url(images/profile_back.png);
+    background-size: contain;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 10px rgb(253, 247, 49);
+
+}
+
+
+  　}

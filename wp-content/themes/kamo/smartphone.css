@@ -1,0 +1,10 @@
+@media screen and (max-width:670px){
+nav{
+    background-color: black;
+    z-index: 1;
+    padding: 1%;
+    width: 100%;
+    position: fixed;
+}
+
+  　}
